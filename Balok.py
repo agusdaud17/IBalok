@@ -1,3 +1,7 @@
+"""
+This code for design and analyzing reinforced conrete beam.
+"""
+
 
 import Reinforcement
 import SNI2847
@@ -6,7 +10,7 @@ from sympy import*
 from math import*
 
 class Rect:
-	"""docstring for ClassName"""
+	"""docstring for """
 	def __init__(self,name="B1",*kwargs):
 		self.material()
 		self.name = name
@@ -215,7 +219,7 @@ class Rect:
 		# check spacing
 		lapis = []
 		n = 2
-		
+
 		while True:
 			n_sisa = numBar - sum(lapis)
 			s_tul = (self.bw-(2*(self.ds+self.Dv))-(2*2*self.Dv)-(n*D)) / (n-1)
