@@ -1,5 +1,6 @@
 """
 This code for design and analyzing reinforced conrete beam.
+By: Agus Daud
 """
 
 
